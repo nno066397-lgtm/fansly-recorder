@@ -40,7 +40,7 @@ async def getAccountData(account_url):
                 "response": [
                     {
                         "id": json_data["response"][0]["id"],
-                        "username": json_data["response"][0]["username"],
+                        "@Vexoriathesuneater": json_data["response"][0]["@Vexoriathesuneater"],
                         "avatar": {
                             "id": json_data["response"][0]["avatar"]["id"],
                             "mimetype": json_data["response"][0]["avatar"]["mimetype"],
